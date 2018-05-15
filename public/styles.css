@@ -1,0 +1,87 @@
+body, html {
+    background-color: lightblue;
+    padding:0;
+    width: 100%;
+    margin: 0;
+    height: auto;
+
+}
+
+table {
+    border-collapse: collapse;
+    margin: 15px auto 15px 5px;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+tr{
+    color: white;
+}
+
+th{
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor:pointer;
+}
+
+.form{
+    font-size: 20px;
+    display: flex;
+    width:35%;
+    height: 225px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+
+}
+
+input {
+    border: none;
+    font-size: 15px;
+    height: 25px;
+    padding-left: 5px;
+}
+
+button {
+    width: 85px;
+    height: 35px;
+    margin: 20px;
+    background-color: lightgrey;
+    font-size: 15px;
+}
+button:hover{
+    background-color: white;
+    color:black;
+
+}
+
+.edit-cell {
+    border: none;
+    font-size: 15px;
+    height: 25px;
+    padding: 5px;
+}
+
+.edit-cell:hover {
+    background-color: lightgrey;
+}
+
+.save-changes {
+    width: 85px;
+    height: 35px;
+    margin: 20px;
+    font-size: 15px;
+}

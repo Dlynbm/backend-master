@@ -1,0 +1,27 @@
+html
+    head
+        title Edit User
+        link(rel='stylesheet' href='/styles.css')
+    body
+        h1 Edit User
+        form(method='post', action='/edit')
+
+            div(class='edit-cell')
+                label(for='userid') User ID:
+                input(id='userid', name='userid' value=users[0].individualuser.userid)
+
+            div(class='edit-cell')
+                label(for='name') Name:
+                input(id='name', name='name' value=users[0].individualuser.name)
+
+            div(class='edit-cell')
+                label(for='email') Email:
+                input(id='email', name='email' value=users[0].individualuser.email)
+
+            div(class='edit-cell')
+                label(for='age') Age:
+                input(id='age', name='age' value=users[0].individualuser.age)
+
+            div(class='save-changes')
+                input(type='submit', value='Save Changes')
+
